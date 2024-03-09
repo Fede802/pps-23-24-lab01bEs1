@@ -16,12 +16,12 @@ public interface Logics{
      * @param col
      * @return whether position row,col has the knight
      */
-    boolean hasKnight(int row, int col);
+    boolean hasKnight(int row, int col) throws IndexOutOfBoundsException;
     
     /**
      * @param row
      * @param col
      * @return whether position row,col has the pawn
      */
-    boolean hasPawn(int row, int col);
+    boolean hasPawn(int row, int col) throws IndexOutOfBoundsException;
 }
